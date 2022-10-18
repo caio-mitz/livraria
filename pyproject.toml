@@ -13,8 +13,13 @@ gunicorn = "^20.1.0"
 whitenoise = "^6.2.0"
 python-magic = "^0.4.27"
 Pillow = "^9.2.0"
+drf-spectacular = "^0.24.2"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^22.10.0", allow-prereleases = true}
+isort = "^5.10.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

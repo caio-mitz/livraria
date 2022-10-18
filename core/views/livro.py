@@ -3,6 +3,7 @@ from rest_framework.viewsets import ModelViewSet
 from core.models import Editora, Livro
 from core.serializers import LivroGetSerializer, LivroSetSerializer
 
+
 class LivroViewSet(ModelViewSet):
     queryset = Livro.objects.all()
     
