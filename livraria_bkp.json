@@ -1,0 +1,66 @@
+[
+{
+  "model": "core.usuario",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$Unm4lTqSAcKzW64Qp3Z0zA$eLs3Ah/mVE3Nj2OEbcWYHs1cUdcd/TC6cIaDqqob5Wo=",
+    "last_login": "2022-09-29T17:04:49Z",
+    "is_superuser": true,
+    "username": "caio-mitz",
+    "first_name": "",
+    "last_name": "",
+    "email": "caioschmitz09@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-09-29T16:59:47Z",
+    "cpf": "12345678912",
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.usuario",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$UzZKEtGCZzjfvWf08Sml6P$cf6azLic1t/iczbOHIooN5LNIj5ZOSMISev3+J9KqMI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "marco_andre",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-09-29T17:11:13Z",
+    "cpf": "19872439128",
+    "telefone": null,
+    "data_nascimento": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "media.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "0c8ee16a-7f19-40ba-b923-ae44b434091f",
+    "public_id": "a33d8984-7c42-4dea-b0f4-629e52c5983d",
+    "file": "images/a33d8984-7c42-4dea-b0f4-629e52c5983d.png",
+    "description": "Shark boy não mexa",
+    "uploaded_on": "2022-09-29T17:47:32.351Z"
+  }
+},
+{
+  "model": "media.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "d05b50a3-ac89-4c6e-b2d7-53ee7afc1b4d",
+    "public_id": "de403ac9-8778-4afa-950f-2ee6908a0b0d",
+    "file": "images/de403ac9-8778-4afa-950f-2ee6908a0b0d.jpg",
+    "description": "Background",
+    "uploaded_on": "2022-09-29T17:47:51.054Z"
+  }
+}
+]
